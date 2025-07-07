@@ -1,5 +1,14 @@
 import React from "react";
-
+import logo1 from "../assets/images/Logo.png"
+import logo2 from "../assets/images/Logo1.png"
+import logo3 from "../assets/images/Logo2.png"
+import logo4 from "../assets/images/Logo3.png"
+import logo5 from "../assets/images/Logo4.png"
+import logo6 from "../assets/images/Logo5.png"
+import logo7 from "../assets/images/Logo7.png"
+import icon3 from "../assets/images/Icon3.png"
+import icon1 from "../assets/images/Icon1.png"
+import icon2 from "../assets/images/Icon2.png"
 const Service = () => {
   const services = [
     {
@@ -7,21 +16,21 @@ const Service = () => {
       title: "Membership Organisations",
       description:
         "Our membership management software provides full automation of membership renewals and payments",
-      image: "/src/assets/images/Icon3.png",
+      image: icon3,
     },
     {
       id: 1,
       title: "National Associations",
       description:
         "Our membership management software provides full automation of membership renewals and payments ",
-      image: "/src/assets/images/Icon1.png",
+      image: icon1,
     },
     {
       id: 1,
       title: "Clubs And Groups",
       description:
         "Our membership management software provides full automation of membership renewals and payments",
-      image: "/src/assets/images/Icon2.png",
+      image: icon2,
     },
   ];
   return (
@@ -39,13 +48,14 @@ const Service = () => {
 
         {/* company logo */}
         <div className=" flex justify-between flex-wrap items-center my-12 px-12">
-          <img src="/src/assets/images/Logo.png" alt="" />
-          <img src="/src/assets/images/Logo1.png" alt="" />
-          <img src="/src/assets/images/Logo2.png" alt="" />
-          <img src="/src/assets/images/Logo3.png" alt="" />
-          <img src="/src/assets/images/Logo4.png" alt="" />
-          <img src="/src/assets/images/Logo5.png" alt="" />
-          <img src="/src/assets/images/Logo6.png" alt="" />
+          <img src={logo1} alt="" />
+          <img src={logo2} alt="" />
+          <img src={logo3} alt="" />
+          <img src={logo4} alt="" />
+          <img src={logo5} alt="" />
+          <img src={logo6} alt="" />
+          <img src={logo7} alt="" />
+      
         </div>
         {/* service card */}
         <div className="md:w-1/2 mx-auto text-center">
