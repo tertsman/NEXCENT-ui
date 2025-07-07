@@ -1,5 +1,12 @@
 import React from "react";
 
+import about1 from "../assets/images/about1.png";
+import menber from "../assets/images/member.png"
+import event from "../assets/images/event.png"
+import clubs from "../assets/images/clup.png"
+import payment from "../assets/images/payment.png"
+
+
 const About = () => {
   return (
     <section id="about">
@@ -7,7 +14,7 @@ const About = () => {
       <div className=" px-4 lg:px-14 max-w-screen-2xl mx-auto my-8 ">
         <div className=" md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12  ">
           <div>
-            <img src="/src/assets/images/about1.png" alt="" />
+            <img src={about1} alt="" />
           </div>
           <div className="md:w-3/5 mx-auto  ">
             <h2 className=" text-4xl text-neutralGray font-semibold mb-4 md:w-4/5 ">
@@ -44,14 +51,14 @@ const About = () => {
           <div className=" md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-between gap-12 ">
             <div className="space-y-8 sm:flex-row flex-col  ">
                 <div className="flex items-center gap-4">
-                    <img src="/src/assets/images/member.png" alt="" />
+                    <img src={menber} alt="" />
                     <div>
                         <h4 className=" text-2xl text-neutralGray font-semibold  ">2,245,341</h4>
                         <p>Members</p>
                     </div>
                 </div>
                 <div className="flex items-center gap-4">
-                    <img src="/src/assets/images/event.png" alt="" />
+                    <img src={event} alt="" />
                     <div>
                         <h4 className=" text-2xl text-neutralGray font-semibold  ">828,867</h4>
                         <p>Event Bookings</p>
@@ -60,14 +67,14 @@ const About = () => {
             </div>
             <div className="space-y-8">
                 <div className="flex items-center gap-4">
-                    <img src="/src/assets/images/clup.png" alt="" />
+                    <img src={clubs} alt="" />
                     <div>
                         <h4 className=" text-2xl text-neutralGray font-semibold  ">46,328</h4>
                         <p>Clubs</p>
                     </div>
                 </div>
                 <div className="flex items-center gap-4">
-                    <img src="/src/assets/images/payment.png" alt="" />
+                    <img src={payment} alt="" />
                     <div>
                         <h4 className=" text-2xl text-neutralGray font-semibold  ">1,926,436</h4>
                         <p>Payments</p>

@@ -1,12 +1,14 @@
 import React from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
-
+import image18 from "../assets/images/image18.png"
+import image19 from "../assets/images/image19.png"
+import image20 from "../assets/images/image20.png"
 const Blog = () => {
 
     const blogs = [
-        {id:1,title:"Creating Streamlined Safeguarding Processes with OneRen",image:"/src/assets/images/image18.png"},
-        {id:2,title:"What are your safeguarding responsibilities and how can you manage them?",image:"/src/assets/images/image19.png"},
-        {id:3,title:"Revamping the Membership Model with Triathlon Australia",image:"/src/assets/images/image20.png"}
+        {id:1,title:"Creating Streamlined Safeguarding Processes with OneRen",image:image18},
+        {id:2,title:"What are your safeguarding responsibilities and how can you manage them?",image:image19},
+        {id:3,title:"Revamping the Membership Model with Triathlon Australia",image:image20}
     ]
   return (
     <section

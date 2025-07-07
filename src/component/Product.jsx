@@ -1,12 +1,23 @@
 import React from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
+
+import pana from "../assets/images/pana.png"
+import image9 from "../assets/images/image9.png"
+import logo1 from "../assets/images/Logo.png"
+import logo2 from "../assets/images/Logo1.png"
+import logo3 from "../assets/images/Logo2.png"
+import logo4 from "../assets/images/Logo3.png"
+import logo5 from "../assets/images/Logo4.png"
+import logo6 from "../assets/images/Logo5.png"
+
+
 const Product = () => {
   return (
     <section id="product">
       <div className=" px-4 lg:px-14 max-w-screen-2xl mx-auto my-8 ">
         <div className=" md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12  ">
           <div>
-            <img src="/src/assets/images/pana.png" alt="" />
+            <img src={pana} alt="" />
           </div>
           <div className="md:w-3/5 mx-auto  ">
             <h2 className=" text-4xl text-neutralGray font-semibold mb-4 md:w-4/5 ">
@@ -31,7 +42,7 @@ const Product = () => {
       <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8 bg-neutralSilver py-16">
         <div className=" flex flex-col md:flex-row justify-between items-center gap-8 ">
           <div className="md:w-1/3 mx-auto flex justify-center items-center md:h-80  ">
-          <img src="/src/assets/images/image9.png" alt="" className="h-full" />
+          <img src={image9} alt="" className="h-full" />
           </div>
 
           {/* state */}
@@ -54,12 +65,12 @@ const Product = () => {
                 <p className=" text-sm text-neutralGray">British Dragon Boat Racing Association</p>
                 <div className="flex items-center gap-7 flex-wrap">
                     <div className="flex items-center gap-4 mb-0">
-                        <img src="/src/assets/images/Logo.png" alt="" className=" cursor-pointer " />
-                        <img src="/src/assets/images/Logo1.png" alt="" className=" cursor-pointer " />
-                        <img src="/src/assets/images/Logo2.png" alt="" className=" cursor-pointer " />
-                        <img src="/src/assets/images/Logo3.png" alt="" className=" cursor-pointer " />
-                        <img src="/src/assets/images/Logo4.png" alt="" className=" cursor-pointer " />
-                        <img src="/src/assets/images/Logo5.png" alt="" className=" cursor-pointer " />
+                        <img src={logo1} alt="" className=" cursor-pointer " />
+                        <img src={logo2} alt="" className=" cursor-pointer " />
+                        <img src={logo3} alt="" className=" cursor-pointer " />
+                        <img src={logo4} alt="" className=" cursor-pointer " />
+                        <img src={logo5} alt="" className=" cursor-pointer " />
+                        <img src={logo6} alt="" className=" cursor-pointer " />
                     </div>
                     <a href="/" className=" flex items-center font-bold text-BrandPrimary hover:text-neutral-700 ">Meet all customer <IoIosArrowRoundForward size={20}/> </a>
                 </div>
